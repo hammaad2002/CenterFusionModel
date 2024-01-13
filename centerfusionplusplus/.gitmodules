@@ -1,0 +1,3 @@
+[submodule "src/lib/model/networks/DCNv2"]
+	path = src/lib/model/networks/DCNv2
+	url = git@github.com:lbin/DCNv2.git
