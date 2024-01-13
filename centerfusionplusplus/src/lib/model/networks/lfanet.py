@@ -21,7 +21,7 @@ from model.networks.pointnetpp import PointNetPP, get_loss
 import cv2
 
 try:
-    from .DCNv2.dcn_v2 import DCN
+    from DCNv2.dcn_v2 import DCN
 except:
     print('Import DCN in dla.py failed')
     print(f'Current location is {os.getcwd()}')
